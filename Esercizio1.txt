@@ -1,0 +1,25 @@
+
+Esercizio 1 della seconda settimana :
+
+
+Traccia :
+Identificare i protocolli utilizzati nel livello di collegamento dati del modello ISO/OSI e descrivere brevemente le loro funzioni.
+
+
+Svolgimento
+
+Nel layer 2 della pila ISO/OSI operano i seguenti protocolli : 
+
+Protocollo Ethernet -> Protocollo che si occupa di standardizzare le connessioni fisiche (802.3) e le connessioni wireless (802.11).
+I dati al livello 2 della pila ISO/OSI si chiamano frame.
+All'intertno del frame Ethernet possiamo trovare il MAC address di origine e il MAC del destinatario.
+
+Troviamo inoltre il campo riservato al FCS(Frame Check Sequence), che ci consente di individuare se ci sono errori di trasmissione.
+
+Protocollo MAC : assegna ad ogni scheda di rete di ogni apparato un indirizzo MAC. L'indirizzo è univoco ed è formato da 12 cifre esadecimali:
+le prime sei cifre corrispondono alla casa produttrice della scheda di rete mentre le altre sei variano e sono univoche, al fine di poter avere un indirizzo univoco su ogni scheda di rete.
+
+Protocollo PPP -> Point-to-Point Protocol 
+E' un protocollo comunemente usato nello stabilire le connessione punto a punto ovvero tra due nodi.
+Tra i protocolli per le connessioni punto a punto possiamo trovare anche i protocolli HDLC e ADCCP.
+

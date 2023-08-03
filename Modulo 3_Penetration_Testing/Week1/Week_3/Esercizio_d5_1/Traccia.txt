@@ -1,6 +1,6 @@
 Tecniche di scansione con Nmap
 
-Si richiede allo stundente di effettuare le seguenti scansioni sul target Metasploitable : 
+Si richiede allo studente di effettuare le seguenti scansioni sul target Metasploitable : 
 ° OS fingerprint
 ° Syn scan
 ° Tcp connect

@@ -1,0 +1,7 @@
+Tecniche di scansione con Nmap
+
+Si richiede allo stundente di effettuare le seguenti scansioni sul target Metasploitable : 
+° OS fingerprint
+° Syn scan
+° Tcp connect
+° Version detection

@@ -1,0 +1,8 @@
+move EAX,0x20 = inserisce nel registro eax il valore decimale 32
+move EDX,0x38 = inserisce nel registro edx il valore decimale 56
+add EAX,EDX = somma i valori presenti nei registri eax e edx e salva il risultato nel registro EAX, somma in decimale : 88 ---> EAX
+move EBP,EAX = inserisce nel registro EBP il valore presente nel registro EAX = EBP ---> 88
+cmp EBP,0xa = compara il valore presente nel registro EBP con il valore esadecimale a (10 in decimale) = visto che il valore "sorgente" è minore del valore destinazione  -> i due flag carry e zero restano settati a 0
+jge 0x1176 = salta alla locazione in memoria specificata visto che nella funzione cmp della linea precedente la destinazione era maggiore ristpetto alla sorgente.
+mov EAX,0xA = inserisce nel registro EAX il valore decimale 10
+call 0x1030 = chiama la funzione presente all'indirizzo in memoria
